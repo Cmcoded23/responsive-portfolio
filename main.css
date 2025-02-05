@@ -67,7 +67,7 @@ body{
     color: azure;
 }
 @media (max-width:1075px){
-    nav, #talk{
+    nav, #talk, #portoo{
         display: none;
     }
     .res_nav{
@@ -75,9 +75,5 @@ body{
         flex-direction:column;
         gap:5em;
         margin-left:4vw;
-    }
-    #portoo{
-        font-size: 50px;
-        margin-top: 20px;
     }
 }
