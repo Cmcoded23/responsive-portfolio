@@ -73,7 +73,7 @@ body{
     .res_nav{
         display:flex;
         flex-direction:column;
-        gap:3em;
+        gap:2.5em;
         margin-top:3em;
     }
     #portoo{
