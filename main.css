@@ -18,6 +18,15 @@ header{
     animation: slide-in-bottom 2.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
     
 }
+.res_nav{
+    display:none;
+}
+#g{
+    color: #9ce60f;
+}
+#portoo{
+    font-size:1.5rem;
+}
 @keyframes slide-in-bottom {
     0% {
       transform: translateY(1000px);
@@ -37,6 +46,7 @@ nav{
     display:flex;
     gap:2em;
     font-size:0.9rem;
+    padding-top:0.3em;
 }
 a{
     text-decoration: none;
@@ -52,4 +62,20 @@ a{
 }
 body{
     background-color: #111507;
+}
+.bee{
+    color: azure;
+}
+@media (max-width:1075px){
+    nav, #talk{
+        display: none;
+    }
+    .res_nav{
+        display:flex;
+        flex-direction:column;
+        gap:2em;
+    }
+    #portoo{
+        font-size: 1rem;
+    }
 }
