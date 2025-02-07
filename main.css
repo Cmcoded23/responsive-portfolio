@@ -75,8 +75,7 @@ body{
         flex-direction:column;
         gap:2.5em;
         margin-top:3em;
-        float:right;
-        float:top
+        margin-right:1em;
     }
     #portoo{
         display:none;
@@ -94,6 +93,9 @@ body{
     font-size: 30px;
     padding-top:0.1;
     font-weight:400;
+  }
+  .res_nav{
+    margin-right:1.3em;
   }
 }
 #portfolio{
