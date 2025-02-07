@@ -27,17 +27,7 @@ header{
 #portoo{
     font-size:1.5rem;
 }
-@keyframes slide-in-bottom {
-    0% {
-      transform: translateY(1000px);
-      opacity: 0;
-    }
-    100% {
-      transform: translateY(0);
-      opacity: 1;
-    }
-  }
-  
+
 #main{
     background-color: #111507;
     padding-bottom:5vw;
@@ -107,59 +97,10 @@ body{
     display: flex;
     flex-direction: column;
     margin-left:7vw;
-    animation: slide-in-left 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s both;
     position:relative;
     padding-top: 5%;
 }
-@keyframes slide-in-left {
-  0% {
-    transform: translateX(-1000px);
-    opacity: 0;
-  }
-  100% {
-    transform: translateX(0);
-    opacity: 1;
-  }
-}
-.about_me, .Creativity{
-    animation: creed 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s both;
-}
-@keyframes creed {
-    0% {
-      transform: translateY(1000px);
-      opacity: 0;
-    }
-    100% {
-      transform: translateY(0);
-      opacity: 1;
-    }
-  }
-  #aboutmy, #btn{
-    animation: btn 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.8s both;
-  }
-  @keyframes btn {
-    0% {
-      transform: translateY(1000px);
-      opacity: 0;
-    }
-    100% {
-      transform: translateY(0);
-      opacity: 1;
-    }
-  }
-  #crw, #services{
-    animation: crw 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1s both;
-  }
-  @keyframes crw {
-    0% {
-      transform: translateX(-1000px);
-      opacity: 0;
-    }
-    100% {
-      transform: translateX(0);
-      opacity: 1;
-    }
-  }
+
 #freelance{
     color: #f7f7f7;
     font-family: Arial, Helvetica, sans-serif;
